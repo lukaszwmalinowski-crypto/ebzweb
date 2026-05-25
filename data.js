@@ -1,50 +1,26 @@
-window.SIGNUP_LINKS = {
-  fakeNews: "#",
-  gamification: "#",
-  communication: "#"
-};
-
-window.TRAINING_DATES = {
-  fakeNews: "do uzupełnienia",
-  gamification: "do uzupełnienia",
-  communication: "do uzupełnienia"
-};
-
 window.TRAININGS = {
-  "fake-news": {
+  fakeNews: {
     title: "Fake news, manipulacja i krytyczne myślenie w erze AI",
-    description: "Uczestnicy pracują na przykładach postów, screenów, nagłówków, zdjęć, materiałów wideo i treści generowanych przez AI. Szkolenie pokazuje, jak zatrzymać automatyczną reakcję, sprawdzić źródło, porównać informacje i świadomie zdecydować, czy można zaufać danej treści.",
-    duration: "9:00-14:30",
-    organisation: "3 przerwy po 15 minut",
-    status: "Opracowane"
+    reason: "Klienci urzędów pracy coraz częściej podejmują decyzje zawodowe i edukacyjne na podstawie informacji znalezionych w internecie. W tym samym miejscu pojawiają się rzetelne źródła, reklamy, opinie, uproszczenia, treści emocjonalne i materiały generowane przez AI. Doradca, który potrafi rozpoznać manipulację i sprawdzić wiarygodność źródła, może lepiej wspierać klienta w uporządkowaniu sytuacji.",
+    scope: ["rozpoznawanie fake newsów, dezinformacji i manipulacji medialnej", "analiza nagłówków, obrazów, emocji i brakującego kontekstu", "podstawy fact-checkingu i weryfikacji źródeł", "wpływ AI, deepfake’ów i treści syntetycznych na zaufanie do informacji", "praktyczny schemat: stop - pomyśl - sprawdź"],
+    result: "Uczestnik potrafi ostrożniej oceniać informacje, szybciej rozpoznawać sygnały manipulacji i wspierać klientów w podejmowaniu decyzji opartych na sprawdzonych danych."
   },
-  "gamification": {
-    title: "Gamification & Game-Based Learning in Adult Education",
-    description: "Uczestnicy poznają, jak wykorzystywać elementy gry w edukacji dorosłych bez sprowadzania szkolenia do zabawy. Nacisk położony jest na cel edukacyjny, motywację, strukturę aktywności, informację zwrotną i projektowanie ćwiczeń możliwych do zastosowania w pracy z grupą.",
-    duration: "termin do uzupełnienia",
-    organisation: "warsztat praktyczny",
-    status: "W przygotowaniu"
-  },
-  "communication": {
+  communication: {
     title: "Komunikacja i wystąpienia publiczne",
-    description: "Szkolenie pomaga uporządkować sposób mówienia, reagowania na pytania, prowadzenia krótkich wystąpień i komunikowania trudniejszych treści w sposób zrozumiały dla odbiorcy.",
-    duration: "termin do uzupełnienia",
-    organisation: "warsztat praktyczny",
-    status: "W przygotowaniu"
+    reason: "W pracy doradczej sama informacja nie wystarcza. Liczy się sposób jej przekazania, jakość relacji, umiejętność zadawania pytań i reagowania na emocje. Osoba, która trafia do instytucji w sytuacji utraty pracy, zmiany branży lub niepewności zawodowej, potrzebuje komunikacji spokojnej, konkretnej i zrozumiałej.",
+    scope: ["budowanie jasnej i uporządkowanej wypowiedzi", "aktywne słuchanie i zadawanie pytań wspierających rozmowę", "komunikacja w sytuacji napięcia, niepewności lub oporu", "krótkie wystąpienia przed grupą i prowadzenie spotkań", "informacja zwrotna, która pomaga, a nie blokuje rozmowy"],
+    result: "Uczestnik potrafi prowadzić rozmowę w sposób bardziej uporządkowany, budować zaufanie i przekazywać informacje tak, aby odbiorca mógł je zrozumieć i wykorzystać."
+  },
+  gamification: {
+    title: "Gamification & Game-Based Learning in Adult Education",
+    reason: "Dorośli uczą się skuteczniej, gdy widzą sens działania i mogą sprawdzić nowe rozwiązania w bezpiecznych warunkach. Tradycyjny wykład często nie wystarcza, szczególnie gdy uczestnik stoi przed zmianą kwalifikacji. Elementy gry i uczenie przez doświadczenie pomagają wzmacniać motywację, poczucie sprawczości i gotowość do kolejnych kroków.",
+    scope: ["różnica między grą edukacyjną, grywalizacją i uczeniem przez doświadczenie", "projektowanie aktywności angażujących dorosłych uczestników", "mechanizmy motywacji, informacji zwrotnej i postępu", "bezpieczne testowanie nowych rozwiązań i uczenie się na błędach", "przenoszenie elementów gry do szkoleń, spotkań i pracy z klientem"],
+    result: "Uczestnik potrafi projektować ćwiczenia i spotkania, w których nauka opiera się na działaniu, współpracy, refleksji i praktycznym sensie zadania."
   }
 };
 
-window.AGENDA = [
-  ["9:00-9:20", "Otwarcie i diagnoza grupy", "Wejście w temat, zasady pracy, pierwsze przykłady i test początkowy."],
-  ["9:20-10:00", "Fake news i emocje w mediach", "Analiza reakcji na posty, nagłówki, emocje i efekt potwierdzenia."],
-  ["10:00-10:15", "Przerwa 1", "Regeneracja po wejściu w temat."],
-  ["10:15-10:55", "Manipulacja medialna i clickbait", "Techniki wpływu, półprawdy, brak kontekstu i manipulacja obrazem."],
-  ["10:55-11:45", "Fact-checking - część 1", "Metoda SIFT, lateral reading, pokaz narzędzi i wspólna analiza."],
-  ["11:45-12:00", "Przerwa 2", "Odpoczynek od ekranu."],
-  ["12:00-12:50", "Fact-checking - część 2", "Ćwiczenie „Śledztwo fact-checkera” i praca w grupach."],
-  ["12:50-13:30", "AI, deepfake i syntetyczne treści", "Obrazy, głos, teksty i ryzyka dla komunikacji publicznej."],
-  ["13:30-13:45", "Przerwa 3", "Regeneracja przed częścią refleksyjną."],
-  ["13:45-14:10", "Odporność informacyjna", "Schemat „Stop - pomyśl - sprawdź”."],
-  ["14:10-14:25", "Zastosowanie w pracy zawodowej", "Komunikacja z klientem, praktyka WUP/PUP i deklaracje uczestników."],
-  ["14:25-14:30", "Domknięcie", "Test końcowy i informacja o materiałach po szkoleniu."]
-];
+window.SIGNUP_LINKS = {
+  fakeNews: "#",
+  communication: "#",
+  gamification: "#"
+};

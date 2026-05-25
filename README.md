@@ -1,46 +1,32 @@
-# Strona projektu - Edukacja bez granic
+# Edukacja bez granic - strona projektu i zapisów
 
-Statyczna strona internetowa do publikacji na GitHub Pages. Zawiera opis projektu, uzasadnienie tematów szkoleniowych, program szkolenia „Fake news” oraz miejsca do zapisów na trzy szkolenia.
+Statyczna strona HTML/CSS/JS do publikacji na GitHub Pages.
 
-## Pliki
+## Co zawiera
 
-- `index.html`
-- `style.css`
-- `data.js`
-- `script.js`
-- `assets/logos/`
+- opis, po co powstał projekt,
+- uzasadnienie wyboru tematów szkoleń,
+- dynamiczną sekcję opisującą 3 szkolenia,
+- miejsca do zapisów na szkolenia,
+- oryginalne logo projektu w folderze `assets/logos/`.
 
-## Jak podmienić linki do formularzy zapisów
+## Jak podmienić linki do zapisów
 
 Otwórz plik `data.js` i uzupełnij:
 
 ```js
 window.SIGNUP_LINKS = {
-  fakeNews: "TU_WKLEJ_LINK_DO_FORMULARZA",
-  gamification: "TU_WKLEJ_LINK_DO_FORMULARZA",
-  communication: "TU_WKLEJ_LINK_DO_FORMULARZA"
-};
-```
-
-## Jak wpisać terminy
-
-W tym samym pliku uzupełnij:
-
-```js
-window.TRAINING_DATES = {
-  fakeNews: "np. 15.09.2026, godz. 9:00-14:30",
-  gamification: "do uzupełnienia",
-  communication: "do uzupełnienia"
+  fakeNews: "LINK_DO_FORMULARZA",
+  communication: "LINK_DO_FORMULARZA",
+  gamification: "LINK_DO_FORMULARZA"
 };
 ```
 
 ## Publikacja na GitHub Pages
 
-1. Utwórz repozytorium na GitHubie.
-2. Wgraj wszystkie pliki z tej paczki.
+1. Utwórz repozytorium.
+2. Wgraj wszystkie pliki z paczki.
 3. Wejdź w `Settings` → `Pages`.
 4. Wybierz `Deploy from a branch`.
 5. Wskaż branch `main` i folder `/root`.
-6. Zapisz ustawienia.
-
-Po chwili strona będzie dostępna jako GitHub Pages.
+6. Zapisz.
